@@ -1,0 +1,57 @@
+firestoreのaddメソッド
+自動でIDを採番
+dataを渡すだけ
+
+Firebaseのsetメソッド
+IDを自動採番
+
+事前に自動採番されたIDを取得できる
+
+変更部分のみMergeできる
+
+
+cloudstroge
+
+material UI Iconsで調べる
+
+MaterialUIのブレイクポイント
+makeStyles()を使って定義する
+
+1.引数themeを受け取る
+2.breakpointsを設定→downなら~px未満、upなら~px以上
+3.smは600px
+
+
+const useStyles = makeStyles((theme) => ({
+  sliderBox: {
+    [theme.breakpoints.down("sm")]: {
+      margin: "0 auto 24px
+      height: 240
+      width: 240
+    }
+  }
+}))
+
+
+split
+
+hooksの使い方
+
+mapの（）と｛｝の違い
+
+MaterialUIについて
+
+三項演算子
+
+<Drawer
+          container={container}
+          variant="temporary"
+          anchor="right"
+          open={props.open}
+          onClose={(e) => props.onClose(e)}
+          classes={{paper: classes.drawerPaper}}
+          Modalprops={{keepMounted: true}}
+      >
+      の内容について
+
+onSnapshotとは
